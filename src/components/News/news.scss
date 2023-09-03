@@ -1,0 +1,60 @@
+.news_letter {
+  background-color: $main-color;
+  margin-top: 0;
+  margin-bottom: 80px;
+  margin-left: 196px;
+  margin-right: 198px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  .news_text {
+    margin: -8px;
+    h3 {
+      color: $white;
+      padding: 120px 0;
+      font-size: 42px;
+      font-weight: 800;
+    }
+    h4 {
+      margin-top: -248px;
+      color: $white;
+      padding: 120px 0;
+      font-size: 42px;
+      font-weight: 800;
+    }
+  }
+  .news_btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    padding-top: 134px;
+    // button {
+    //   background-color: $white;
+    //   border: none;
+
+    //   svg {
+    //     margin-left: 46px;
+    //     background-color: $black;
+    //     color: $main-color;
+    //     width: 60px;
+    //   }
+    // }
+  }
+  input {
+    background-color: $white;
+    border: none;
+    outline: none;
+    padding: 15px 15px;
+  }
+  button {
+    background-color: $white;
+    border: none;
+    outline: none;
+    padding: 15px 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  svg {
+    fill: $main-color;
+  }
+}

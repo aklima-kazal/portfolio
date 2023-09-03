@@ -1,0 +1,106 @@
+.footer {
+  padding-bottom: 50px;
+  .short-info-footer {
+    p {
+      margin-top: 53px;
+      font-size: 18px;
+      font-weight: 400;
+      color: $white;
+      line-height: 30px;
+      padding-right: 20px;
+    }
+  }
+}
+.footer-before-list {
+  h4 {
+    color: $white;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .before-list {
+    margin-top: 52px;
+    a {
+      display: block;
+      color: $white;
+      font-size: 18px;
+      font-weight: 400;
+      margin-bottom: 15px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+.footer-newsletter {
+  h4 {
+    color: $white;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .newsletter-body {
+    margin-top: 53px;
+    p {
+      font-size: 18px;
+      font-weight: 400;
+      color: $white;
+      line-height: 30px;
+      padding-right: 19px;
+    }
+    .newsletter-form {
+      background-color: $white;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 10px;
+      @include media-breakpoint-down(lg) {
+        margin-right: 380px;
+      }
+      @include media-breakpoint-down(md) {
+        margin-right: 290px;
+      }
+    }
+    input {
+      background-color: transparent;
+      border: none;
+      outline: none;
+      padding-left: 15px;
+      @include media-breakpoint-down(xl) {
+        padding: 0;
+      }
+    }
+    button {
+      background-color: $main-color;
+      border: none;
+      outline: none;
+      padding: 15px 15px;
+      border-bottom-right-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+    svg {
+      fill: $white;
+    }
+    .footer-social {
+      margin-top: 25px;
+      display: flex;
+      gap: 15px;
+      .images {
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        background-color: $white;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        &:hover {
+          background-color: $main-color;
+          svg {
+            path {
+              fill: $white;
+            }
+          }
+        }
+      }
+    }
+  }
+}

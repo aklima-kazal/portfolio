@@ -1,0 +1,109 @@
+.team_member {
+  padding-top: 20px;
+  padding-bottom: 80px;
+  .team-content {
+    padding-bottom: 80px;
+
+    h4 {
+      color: $white;
+      font-size: 42px;
+      font-weight: 700;
+      span {
+        color: $yellow;
+      }
+    }
+  }
+
+  .right_team_content {
+    @include media-breakpoint-down(lg) {
+      margin-top: -137px;
+      padding-left: 343px;
+    }
+    @include media-breakpoint-down(md) {
+      padding-top: 500px;
+    }
+    h2 {
+      color: $white;
+      margin-bottom: 20px;
+      span {
+        color: $yellow;
+      }
+      @include media-breakpoint-down(lg) {
+        font-size: 20px;
+      }
+    }
+    p {
+      font-size: 19px;
+      font-weight: 400;
+      color: $white;
+      line-height: 25px;
+      @include media-breakpoint-down(lg) {
+        font-size: 13px;
+        line-height: 15px;
+      }
+    }
+  }
+  .scoend_team_content {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    h2 {
+      color: $white;
+      margin-bottom: 20px;
+      span {
+        color: $yellow;
+      }
+      p {
+        font-size: 19px;
+        font-weight: 400;
+        color: $white;
+        line-height: 25px;
+      }
+    }
+  }
+  .team_btn {
+    margin-top: 60px;
+    @include media-breakpoint-down(md) {
+      padding-left: 160px;
+    }
+    button {
+      padding: 15px 32px;
+      border-radius: 8px;
+      font-size: 18px;
+      font-weight: 700;
+      color: $main-color;
+      background-color: transparent;
+      margin-top: 24px;
+      border-color: $main-color;
+      border-width: 3px;
+      &:hover {
+        background-color: $hover;
+        transition: all linear 0.3s;
+      }
+    }
+  }
+  .left_team_img {
+    img {
+      position: absolute;
+      @include media-breakpoint-down(lg) {
+        position: absolute;
+        height: 300px;
+        width: 300px;
+      }
+    }
+    .object_team {
+      img {
+        position: relative;
+        margin-left: 423px;
+        margin-top: -30px;
+        @include media-breakpoint-down(lg) {
+          margin-left: 146px;
+          margin-top: -144px;
+          padding: 120px;
+        }
+        @include media-breakpoint-down(md) {
+          display: none;
+        }
+      }
+    }
+  }
+}

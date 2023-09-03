@@ -1,0 +1,40 @@
+.part_ners_part {
+  padding-bottom: 80px;
+  .partners_content {
+    h2 {
+      color: $white;
+      font-size: 35px;
+      font-weight: 800;
+
+      span {
+        color: $yellow;
+      }
+      @include media-breakpoint-down(lg) {
+        padding-left: 190px;
+      }
+      @include media-breakpoint-down(md) {
+        padding-left: 120px;
+      }
+    }
+  }
+  img {
+    margin-left: -30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    @include media-breakpoint-down(xl) {
+      margin-left: 0;
+    }
+    @include media-breakpoint-down(md) {
+      margin-left: -10px;
+    }
+    @include media-breakpoint-down(lg) {
+      margin-left: -9px;
+    }
+  }
+  .p_text {
+    color: #dddd;
+    font-size: 17px;
+    font-weight: 100;
+  }
+}
