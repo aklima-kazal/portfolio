@@ -29,7 +29,7 @@ const Work = () => {
           <div className="row">
             <div className="col-lg-6 ">
               <div className="work_imgs_one">
-                <Image src={LeftWork} width={700} height={600} />
+                <Image src={LeftWork} width={700} height={600} alt="img" />
               </div>
             </div>
             <div className="col-lg-6">
@@ -43,7 +43,7 @@ const Work = () => {
                 </p>
               </div>
               <div className="work_imgs_two">
-                <Image src={groupWork} />
+                <Image src={groupWork} alt="img" />
               </div>
             </div>
           </div>

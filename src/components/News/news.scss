@@ -2,12 +2,22 @@
   background-color: $main-color;
   margin-top: 0;
   margin-bottom: 80px;
-  margin-left: 196px;
-  margin-right: 198px;
+  margin-left: 290px;
+  margin-right: 290px;
   border-bottom-left-radius: 20px;
   border-top-right-radius: 20px;
+  @include media-breakpoint-down(lg) {
+    height: 316px;
+    width: 500px;
+    margin-left: 143px;
+    margin-top: 44px;
+  }
   .news_text {
-    margin: -8px;
+    margin-left: 138px;
+    @include media-breakpoint-down(lg) {
+      margin-top: -67px;
+      margin-left: 43px;
+    }
     h3 {
       color: $white;
       padding: 120px 0;
@@ -26,19 +36,12 @@
     background-color: transparent;
     border: none;
     outline: none;
-    padding-left: 15px;
-    padding-top: 134px;
-    // button {
-    //   background-color: $white;
-    //   border: none;
-
-    //   svg {
-    //     margin-left: 46px;
-    //     background-color: $black;
-    //     color: $main-color;
-    //     width: 60px;
-    //   }
-    // }
+    margin-left: 90px;
+    margin-top: 181px;
+    @include media-breakpoint-down(lg) {
+      margin-left: 95px;
+      margin-top: -80px;
+    }
   }
   input {
     background-color: $white;

@@ -64,45 +64,45 @@ const About = () => {
           <div className="about_slider ">
             <Slider {...settings}>
               <div className="item">
-                <Image src={Comma} />
+                <Image src={Comma} alt="img" />
                 <p className={monserrat.className}>
                   There are many variations of passages of Lorem Ipsum
                   available, but the majority have suffered alteration in some.
                 </p>
-                <Image src={Ceo} />
+                <Image src={Ceo} alt="img" />
                 <div className="ceos">
                   <p className={monserrat.className}>James Willy</p>
                 </div>
               </div>
               <div className="item">
-                <Image src={Comma} />
+                <Image src={Comma} alt="img" />
                 <p className={monserrat.className}>
                   There are many variations of passages of Lorem Ipsum
                   available, but the majority have suffered alteration in some.
                 </p>
-                <Image src={James} />
+                <Image src={James} alt="img" />
                 <div className="ceos">
                   <p className={monserrat.className}>James Willy</p>
                 </div>
               </div>
               <div className="item">
-                <Image src={Comma} />
+                <Image src={Comma} alt="img" />
                 <p className={monserrat.className}>
                   There are many variations of passages of Lorem Ipsum
                   available, but the majority have suffered alteration in some.
                 </p>
-                <Image src={Willy} />
+                <Image src={Willy} alt="img" />
                 <div className="ceos">
                   <p className={monserrat.className}>James Willy</p>
                 </div>
               </div>
               <div className="item">
-                <Image src={Comma} />
+                <Image src={Comma} alt="img" />
                 <p className={monserrat.className}>
                   There are many variations of passages of Lorem Ipsum
                   available, but the majority have suffered alteration in some.
                 </p>
-                <Image src={James} />
+                <Image src={James} alt="img" />
                 <div className="ceos">
                   <p className={monserrat.className}>James Willy</p>
                 </div>

@@ -31,7 +31,7 @@ const Team = () => {
               <div className="left_team_img">
                 <Image src={teamImage} alt="img" />
                 <div className="object_team">
-                  <Image src={Object} />
+                  <Image src={Object} alt="img" />
                 </div>
               </div>
             </div>
@@ -65,7 +65,7 @@ const Team = () => {
                       className={dmSans.className}
                     >
                       Contact Now
-                    </motion.button>{" "}
+                    </motion.button>
                   </div>
                 </div>
               </div>

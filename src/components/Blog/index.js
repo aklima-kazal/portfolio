@@ -68,25 +68,25 @@ const Blog = () => {
           <div className="blog_slider">
             <Slider {...settings}>
               <div className="item">
-                <Image src={slideImage} />
+                <Image src={slideImage} alt="img" />
                 <p className={monserrat.className}>
                   Bitcoin and Economic Freedom
                 </p>
               </div>
               <div className="item">
-                <Image src={slideImages} />
+                <Image src={slideImages} alt="img" />
                 <p className={monserrat.className}>
                   Bitcoin and Economic Strategy
                 </p>
               </div>
               <div className="item">
-                <Image src={slidesImage} />
+                <Image src={slidesImage} alt="img" />
                 <p className={monserrat.className}>
                   Bitcoin and Economic Finance
                 </p>
               </div>
               <div className="item">
-                <Image src={slideImages} />
+                <Image src={slideImages} alt="img" />
                 <p className={monserrat.className}>
                   Bitcoin and Economic Finance
                 </p>

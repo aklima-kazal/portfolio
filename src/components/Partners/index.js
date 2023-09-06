@@ -25,7 +25,7 @@ const Partners = () => {
               </div>
             </div>
             <div className="img">
-              <Image src={PartnersImg} />
+              <Image src={PartnersImg} alt="img" />
               <div className="p_text text-center">
                 <p className={inter.className}>
                   including thousands other brokers and prop firms
